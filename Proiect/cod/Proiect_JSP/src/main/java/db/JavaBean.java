@@ -7,7 +7,7 @@ public class JavaBean {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/farmacie?useSSL=false",
-					"root", "dariavtm23");
+					"root", "1231231");
 		} catch (ClassNotFoundException cnfe) {
 			error = "ClassNotFoundException: Nu s-a gasit driverul bazei de date.";
 			throw new ClassNotFoundException(error);
